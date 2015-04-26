@@ -3,9 +3,7 @@ module Instances where
 
 import System.Random
 import Test.QuickCheck
-import Test.QuickCheck.Modifiers 
 import Data.Algorithm.Hilbert.Types 
-import Control.Applicative ((<$>)) 
 import Data.Maybe (fromJust) 
 
 instance Arbitrary PrecisionNum where

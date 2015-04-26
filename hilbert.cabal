@@ -37,6 +37,7 @@ source-repository head
 library
   hs-source-dirs:      src 
   exposed-modules:     Data.Algorithm.Hilbert  
+                      ,Data.Algorithm.Hilbert.Functions 
                       ,Data.Algorithm.Hilbert.Utility 
                       ,Data.Algorithm.Hilbert.Types 
   ghc-options:       -Wall -rtsopts  
