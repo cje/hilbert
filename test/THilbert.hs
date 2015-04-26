@@ -2,7 +2,7 @@
 module THilbert where
 import Control.Monad (replicateM)  
 import Control.Applicative (liftA, liftA3, (<$>)) 
-import Data.Algorithm.Hilbert 
+import Data.Algorithm.Hilbert.Functions  
 import Data.Algorithm.Hilbert.Types 
 import Data.Algorithm.Hilbert.Utility 
 import Data.Bits 
